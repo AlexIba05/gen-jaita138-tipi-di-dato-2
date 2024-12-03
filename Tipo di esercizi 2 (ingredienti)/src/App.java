@@ -15,11 +15,9 @@ public class App {
 
         System.out.println("Che tipo di ingrediente è? 1) Ingrediente per il salato, 2) Ingrediente per il dolce, 3) Ingrediente per entrambi i casi");
         Byte tipologia= sc.nextByte();
-        sc.nextLine();
 
         System.out.println("L'ingrediente è disponibile?");
         boolean disponibilita= sc.nextBoolean();
-        sc.nextLine();
 
         System.out.println("Quanto costa l'ingrediente?");
         Double costo= sc.nextDouble();
@@ -35,8 +33,11 @@ public class App {
         String foto= sc.nextLine();
 
         // ------------------------------
-
+        System.out.println("");
+        System.out.println("");
         System.out.println("------------------------------------------------------------");
+        System.out.println("");
+        System.out.println("");
 
 
         System.out.println("");
@@ -55,6 +56,7 @@ public class App {
         System.out.println("Modalità di conservazione: " + modConservazione );
         System.out.println("");
         System.out.println("Immagine: " + foto );
+        System.out.println("");
 
 
         sc.close();
